@@ -56,6 +56,7 @@ abstract class Unit
         exit();
     }
 
+    // Se define la estructura base, pero se sobresscribe en las clases que la heredan
     protected function absorbDamage($damage)
     {
         return $damage;
