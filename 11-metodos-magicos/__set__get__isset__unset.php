@@ -3,7 +3,7 @@
 namespace Styde;
 /*
  * Los metodos magicos, son metodos que sobreescriben el comportamiento
- * al incocar determinados metodos propios de las Clases
+ * al invocar determinados metodos propios de las Clases
  *
  * */
 
@@ -14,10 +14,10 @@ class User
 
     public function __construct(array $attributes = [])
     {
-        $this->fill($attributes);
+        $this->setAttributes($attributes);
     }
 
-    public function fill(array $attributes = [])
+    public function setAttributes(array $attributes = [])
     {
         $this->attributes = $attributes;
     }
@@ -88,7 +88,7 @@ class User
 
 $user = new User();
 
-$user->fill([
+$user->setAttributes([
     'first_name' => 'GUstavo',
     'last_name' => 'Marquez',
 ]);
