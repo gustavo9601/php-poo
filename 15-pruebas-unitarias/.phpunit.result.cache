@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":158:{a:2:{s:7:"defects";a:1:{s:43:"StrTest::test_studly_method_convert_strings";i:3;}s:5:"times";a:1:{s:43:"StrTest::test_studly_method_convert_strings";d:0.006;}}}
